@@ -1,0 +1,14 @@
+global using Microsoft.EntityFrameworkCore;
+global using AutoMapper;
+global using Xunit;
+global using Shouldly;
+global using CadastralOfficeDomain;
+global using CadastralOfficeApplication.Interfaces;
+global using CadastralOfficeApplication.Common.Mappings;
+global using CadastralOfficeApplication.Documents.Commands.CreateDocument;
+global using CadastralOfficeApplication.Documents.Commands.UpdateDocument;
+global using CadastralOfficeApplication.Documents.Commands.DeleteDocument;
+global using CadastralOfficeApplication.Documents.Queries.GetDocument;
+global using CadastralOfficeApplication.Documents.Queries.GetDocumentList;
+global using CadastralOfficePersistence;
+global using CadastralOfficeTests.Common;
