@@ -76,7 +76,6 @@ public class DocumentController : BaseController
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<ActionResult<Guid>> Create([FromBody] CreateDocumentDto createDocumentDto)
     {
         var command = _mapper.Map<CreateDocumentCommand>(createDocumentDto);
