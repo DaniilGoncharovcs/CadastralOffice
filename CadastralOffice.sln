@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C552471F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastralOfficeTests", "Services\Cadastral\CadastralOfficeTests\CadastralOfficeTests.csproj", "{63CD76A6-53CF-48B3-AC17-0AE8238124F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityWebApi", "Services\Identity\IdentityWebApi\IdentityWebApi.csproj", "{0CE6A99D-A7BD-4F63-B643-59DF8CD90074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{63CD76A6-53CF-48B3-AC17-0AE8238124F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63CD76A6-53CF-48B3-AC17-0AE8238124F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63CD76A6-53CF-48B3-AC17-0AE8238124F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CE6A99D-A7BD-4F63-B643-59DF8CD90074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CE6A99D-A7BD-4F63-B643-59DF8CD90074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CE6A99D-A7BD-4F63-B643-59DF8CD90074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CE6A99D-A7BD-4F63-B643-59DF8CD90074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{6212A1EC-B1C2-4ADA-850C-5CBDFE450B1C} = {6872D947-0080-4328-8601-78DA29D840AD}
 		{C552471F-2606-4F6F-99E9-A5D69D90D94C} = {2CF39654-E07D-4181-A9AC-FEB85336EF7E}
 		{63CD76A6-53CF-48B3-AC17-0AE8238124F9} = {C552471F-2606-4F6F-99E9-A5D69D90D94C}
+		{0CE6A99D-A7BD-4F63-B643-59DF8CD90074} = {19947A44-BC8B-4EF4-A7F1-54B2A2D991B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA9CD049-58F5-4D42-A2DF-1722F7EE8A3B}
